@@ -1,0 +1,94 @@
+.about {
+  padding: 4rem 0;
+  background-color: #f8f9fa;
+}
+
+.about h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2.5rem;
+  color: #333;
+}
+
+.aboutContent {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.personalInfo {
+  max-width: 800px;
+  text-align: center;
+}
+
+.personalInfo h3 {
+  font-size: 2rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.title {
+  font-size: 1.2rem;
+  color: #666;
+  margin-bottom: 1rem;
+  font-weight: 500;
+}
+
+.bio {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #555;
+  margin-bottom: 2rem;
+}
+
+.contactInfo {
+  text-align: left;
+  width: 100%;
+  max-width: 400px;
+}
+
+.contactInfo h4 {
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.contactItems {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.contactItem {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.contactItem strong {
+  margin-bottom: 0.25rem;
+  color: #555;
+}
+
+.contactItem a {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.contactItem a:hover {
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .about {
+    padding: 2rem 0;
+  }
+
+  .about h2 {
+    font-size: 2rem;
+  }
+
+  .personalInfo h3 {
+    font-size: 1.5rem;
+  }
+}
